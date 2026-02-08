@@ -22,7 +22,7 @@ include_directories(${LVGL_SRC_DIR}/core)
 include_directories(${LVGL_SRC_DIR}/misc)
 include_directories(${LVGL_SRC_DIR}/widgets)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
-
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 # 查找 LVGL 源文件
 file(GLOB_RECURSE LVGL_SOURCES
     "${LVGL_SRC_DIR}/*.c"
